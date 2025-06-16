@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="slider" id="header">
+            <img src="images/background.jpg" class="slider-background" alt="background">
+
+            <div class="name">
+                <h5>TINKAWORO Angéla</h5>
+            </div>
+
+            <!-- Bouton menu hamburger -->
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="boxed">
+                <div class="flex" id="menu">
+                    <ul>
+                        <li><a href="#header">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-text">
+                <h4>Je suis <span>Angéla</span>, Développeur en devenir <br>passionnée par le web </h4>
+                <a href="#projets" class="btn">
+                    <button>Voir mes projets</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="section" id="about">
+        <div class="container">
+            <h1>À propos de moi</h1>
+        </div>
+    </div>
+    <div class="row">
+        <p>Je m'appelle TINKAWORO Koedoua Angéla, passionnée par la création de sites web modernes et interactifs.</p>
+        <p>Je suis actuellement étudiante en développement web, je cherche à améliorer mes compétences en
+            javascript, html et css.</p>
+        <p>J'aime transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+        <a href="CV_Tinkaworo_Angéla.pdf"> Voir mon CV</a>
+    </div>
+
+    <div id="competences">
+        <div class="container">
+            <h1>Mes compétences</h1>
+        </div>
+        <div class="logo">
+            <img src="images/logo_html.jpeg" class="logo-img">
+            <img src="images/logo_css.jpeg" class="logo-img">
+            <img src="images/logo_js.jpeg" class="logo-img">
+            <img src="images/logo_postgre.jpeg" class="logo-img">
+            <img src="images/logo_vs.jpeg" class="logo-img">
+        </div>
+    </div>
+
+    <div id="projets">
+        <div class="container">
+            <h1 class="sub-title">Mes projets</h1>
+        </div>
+        <div class="projet-list">
+            <div>
+                <h2>Base de données</h2>
+                <p>Conception et implémentation d'une base de données pour le ministère de l'administration territoriale
+                    du Burkina-Faso : Projet académique</p>
+            </div>
+            <div>
+                <h2>Développement web</h2>
+                <p>Application de réservation de rendez-vous en ligne : Projet académique</p>
+            </div>
+            <div>
+                <h2>Horloge</h2>
+                <p>Conception d'une horloge en temps réel avec JavaScript : Activité D-CLiC</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h1>Contactez-moi</h1>
+    </div>
+    <div class="contact-center" id="contactForm">
+        <form>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+            <input type="email" id="email" name="email" placeholder="Votre adresse mail" required>
+            <textarea name="Message" rows="6" placeholder="Votre message"></textarea>
+            <button type="submit" class="btn-btn">Envoyer</button>
+            <p id="messageErreur" style="color: red;"></p>
+        </form>
+    </div>
+
+    <div class="copyright">
+        <p class="copy-left">Designed by <span>Angela</span> with HTML CSS JS</p>
+        <p class="copy-right">Tous droits réservés - 2025</p>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
